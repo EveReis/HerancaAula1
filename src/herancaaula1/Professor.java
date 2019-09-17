@@ -10,15 +10,15 @@ public class Professor extends Pessoa{
         return cursos;
     }
 
-    public void setCursos(String cursos) {
-        this.cursos = cursos;
+    public void setCursos(String curs) {
+        this.cursos = curs;
     }
 
     public double getSalario() {
         return salario;
     }
 
-    public void setSalario(double salario) {
-        this.salario = salario;
+    public void setSalario(double sal) {
+        this.salario = sal;
     }
 }
